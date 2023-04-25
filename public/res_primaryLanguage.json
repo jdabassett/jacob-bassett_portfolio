@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Welcome to my portfolio! ",
+      "description": "My name is Jacob Bassett and I am a full-stack software developer. Before I became a developer I was a molecular biologist studying how proteins control gene expression. As a molecular biologist, most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. Here is a little taste of what I have worked on during my journey.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,138 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Picture Store",
+        "startDate": "03.2023",
+        "description": "This site relys heavily on React-Context and React-Router. Its a simple 'picture store' that allows users to favorite pictures, add items to their cart and proceed to checkout. I had a lot of fun building this one. A lot of concepts came together while I was building it.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/pic-store/pic-store-select_1710x862.png",
+          "images/pic-store/pic-store-checkout_1724x733.png"
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://golden-mousse-db6931.netlify.app",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Speed Typing",
+        "startDate": "02.2023",
+        "description": "This site is just more practice working with React and managing state.",
+        "images": [
+          "images/speed-typing/speed-typing_865x860.png",
+          "images/speed-typing/speed-typing-ending_865x860.png"
+        ],
+        "url": "https://coruscating-souffle-69204b.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Quizzical",
+        "startDate": "01.2023",
+        "description": "This was my first website built from data returned from an API. Note that all data is fetched from the Open Trivia Database, user results persist locally between visits, and all CSS is accomplished without Bootstrap.",
+        "images": [
+          "images/quizzical/quizzical_landing_1060x1246.png",
+          "images/quizzical/quizzical_quiz_1060x1246.png",
+          "images/quizzical/quizzical_results_1060x1246.png"
+        ],
+        "url": "https://animated-axolotl-a2d662.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Tenzie",
+        "startDate": "01.2023",
+        "description": "Of all the site I have developed, this is my mother's favorite. :) Note that user results persist locally between visits and all CSS is accomplished without Bootstrap.",
+        "images": [
+          "images/tenzie/tenzie_landing_1188x954.png",
+          "images/tenzie/tenzie_results_1188x954.png"
+        ],
+        "url": "https://steady-squirrel-fc0564.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Meme Generator",
+        "startDate": "01.2023",
+        "description": "This was the first project in my learning React journey. Honestly this is the first project were I could see the path to make fully dynamic and scaleable websites. It was a very exciting epiphany!",
+        "images": [
+          "images/meme-generator/meme-generator_landing_1352x1152.png"
+        ],
+        "url": "https://gleaming-melomakarona-f3a2d5.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Slot Machine",
+        "startDate": "12.2022",
+        "description": "This was the first website that I developed with a team. We took it from wireframe to publication, building, and troubleshooting together. My biggest contribution would be the CSS of the slot machine.",
+        "images": [
+          "images/slot-machine/slotmachine_index.png",
+          "images/slot-machine/slotmachine_performance.png",
+          "images/slot-machine/slotmachine_resources.png"
+        ],
+        "url": "https://team-vi.github.io/FVI/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           }
         ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Student",
+        "years": "11.2022 - 04.2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "Full-Stack Development"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML5",
+          "CSS3",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React",
+          "MongoDB",
+          "Python3"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Institute for Systems Biology",
+        "title": "Research Associate III",
+        "years": "11.2014 - 11.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Self-Study"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "R",
+          "Python3"
         ]
       }
     ]
