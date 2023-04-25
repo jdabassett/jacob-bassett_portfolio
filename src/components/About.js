@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
 import python from "@iconify/icons-logos/python";
+import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
   render() {
@@ -26,7 +26,6 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     // height="250px"
-                    // width='350px'
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
@@ -73,7 +72,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}
