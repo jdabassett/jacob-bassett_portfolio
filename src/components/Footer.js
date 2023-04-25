@@ -19,8 +19,10 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col social-links">{networks}</div>
+
+
             <div className="col">
-              <div 
+              {/* <div 
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$primaryLanguage,
@@ -51,8 +53,9 @@ class Footer extends Component {
                   data-inline="false"
                   id={window.$secondaryLanguageIconId}
                 ></span>
-              </div>
+              </div> */}
             </div>
+
             <div className="col">
               <div className="copyright py-4 text-center">
                 <div className="container">
