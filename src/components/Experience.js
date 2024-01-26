@@ -23,7 +23,7 @@ class Experience extends Component {
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge badge-light mr-2 mb-2" key={i}>
+            <Badge pill className="experience-badge badge-light mr-2 mb-2 m-1" key={i}>
               {technology}
             </Badge>
           );

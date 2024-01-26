@@ -49,10 +49,26 @@
           "level": "90"
         },
         {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "90"
+        },
+        {
           "name": "MongoDB",
           "class": "devicon-mongodb-plain",
           "level": "90"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "90"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
+          "level": "90"
         }
+
       ]
     }
   }
