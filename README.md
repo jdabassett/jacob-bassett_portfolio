@@ -12,34 +12,4 @@ Creator: [Jacob Bassett](https://github.com/jdabassett)
 [Github](https://github.com/jdabassett/jacob-bassett_portfolio)
 [Deployed](https://jacobbassett-portfolio.netlify.app/)
 
-## Feature Development Record
-Number and Name:
-Time Estimate of Development:
-Start:
-Finish:
-Actual Time of Development:
-
-Number and Name:
-Time Estimate of Development:
-Start:
-Finish:
-Actual Time of Development:
-
-Number and Name:
-Time Estimate of Development:
-Start:
-Finish:
-Actual Time of Development:
-
-Number and Name:
-Time Estimate of Development:
-Start:
-Finish:
-Actual Time of Development:
-
-Number and Name:
-Time Estimate of Development:
-Start:
-Finish:
-Actual Time of Development:
 
