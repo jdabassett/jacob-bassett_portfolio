@@ -44,6 +44,11 @@
           "level": "70"
         },
         {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain",
+          "level": "70"
+        },
+        {
           "name": "Python",
           "class": "devicon-python-plain",
           "level": "90"

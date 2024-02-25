@@ -12,26 +12,47 @@
     "projects": [
       {
         "title": "Django API",
-        "startDate": "1.2024",
-        "description": "I have focused recently on working with Django, JWT authentication, and deployment with Docker. Unfortunately none of my projects have been visually appealing. So I will leave this as a placeholder sharing the latest implementation of a Django API leveraging authentications and deployment with Docker.",
+        "startDate": "2.2024",
+        "description": "This is a project to enable clients to generate first draft cover letters using the details from a clients resume, a job description, and an existing cover letter whose style they wish to emulate. I used a few tools with this one: Next.js, Django, PostgreSQL, JWT Tokens, Tailwind.css, and React Custom Hooks. It was a lot of fun bringing them all together. If this site is no longer working it is likely due to the OpenAI key expiring.",
         "images": [
-          "images/drf_api/drf_api_refresh.png",
-          "images/drf_api/drf_api_post.png"
+          "images/first-draft/home.png",
+          "images/first-draft/login.png",
+          "images/first-draft/registration.png",
+          "images/first-draft/records.png",
+          "images/first-draft/registration.png",
+          "images/first-draft/editandsave.png",
+          "images/first-draft/query.png",
+          "images/first-draft/description.png",
+          "images/first-draft/resume.png",
+          "images/first-draft/coverletters.png"
         ],
-        "url": "https://github.com/jdabassett/drf-cookie-stand",
-        "video":"",
+        "url": "https://frontend-first-draft.vercel.app/",
+        "video":"https://youtu.be/7D0psx4fwD8",
         "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "Python"
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "70"
           },
           {
+            "name": "Next.js",
+            "class": "devicon-nextjs-plain",
+            "level": "90"
+          },
+          {
+            "name": "Django",
             "class": "devicon-django-plain",
-            "name": "Django"
+            "level": "90"
           },
           {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
+            "name": "PostgreSQL",
+            "class": "devicon-postgresql-plain",
+            "level": "90"
+          },
+          {
+            "name": "Tailwind.css",
+            "class": "devicon-tailwindcss-original",
+            "level": "90"
           }
         ]
       },
