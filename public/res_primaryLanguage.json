@@ -1,341 +1,344 @@
 {
-    "basic_info": {
-      "description_header": "Welcome to my portfolio! ",
-      "description": "Before I became a software engineer, I was a molecular biologist studying how proteins control gene expression. Most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. I'm motivated to build tools that can make a meaningful impact in others lives.\n\nBeyond my professional work, here are some of the personal projects I have worked on during my journey.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Welcome to my portfolio! ",
+    "description": "Before I became a software engineer, I was a molecular biologist studying how proteins control gene expression. Most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. I'm motivated to build tools that can make a meaningful impact in others lives.\n\nBeyond my professional work, here are some of the personal projects I have worked on during my journey.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Django API",
+      "startDate": "2.2024",
+      "description": "This is a project to enable clients to generate first draft cover letters using the details from a clients resume, a job description, and an existing cover letter whose style they wish to emulate. I used a few tools with this one: Next.js, Django, PostgreSQL, JWT Tokens, Tailwind.css, and React Custom Hooks. It was a lot of fun bringing them all together. If this site is no longer working it is likely due to the OpenAI key expiring.",
+      "images": [
+        "images/first-draft/home.png",
+        "images/first-draft/login.png",
+        "images/first-draft/registration.png",
+        "images/first-draft/records.png",
+        "images/first-draft/registration.png",
+        "images/first-draft/editandsave.png",
+        "images/first-draft/query.png",
+        "images/first-draft/description.png",
+        "images/first-draft/resume.png",
+        "images/first-draft/coverletters.png"
+      ],
+      "url": "https://frontend-first-draft.vercel.app/",
+      "video": "https://youtu.be/7D0psx4fwD8",
+      "technologies": [
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "70"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain",
+          "level": "90"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "90"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "90"
+        },
+        {
+          "name": "Tailwind.css",
+          "class": "devicon-tailwindcss-original",
+          "level": "90"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Django API",
-        "startDate": "2.2024",
-        "description": "This is a project to enable clients to generate first draft cover letters using the details from a clients resume, a job description, and an existing cover letter whose style they wish to emulate. I used a few tools with this one: Next.js, Django, PostgreSQL, JWT Tokens, Tailwind.css, and React Custom Hooks. It was a lot of fun bringing them all together. If this site is no longer working it is likely due to the OpenAI key expiring.",
-        "images": [
-          "images/first-draft/home.png",
-          "images/first-draft/login.png",
-          "images/first-draft/registration.png",
-          "images/first-draft/records.png",
-          "images/first-draft/registration.png",
-          "images/first-draft/editandsave.png",
-          "images/first-draft/query.png",
-          "images/first-draft/description.png",
-          "images/first-draft/resume.png",
-          "images/first-draft/coverletters.png"
-        ],
-        "url": "https://frontend-first-draft.vercel.app/",
-        "video":"https://youtu.be/7D0psx4fwD8",
-        "technologies": [
-          {
-            "name": "React",
-            "class": "devicon-react-plain",
-            "level": "70"
-          },
-          {
-            "name": "Next.js",
-            "class": "devicon-nextjs-plain",
-            "level": "90"
-          },
-          {
-            "name": "Django",
-            "class": "devicon-django-plain",
-            "level": "90"
-          },
-          {
-            "name": "PostgreSQL",
-            "class": "devicon-postgresql-plain",
-            "level": "90"
-          },
-          {
-            "name": "Tailwind.css",
-            "class": "devicon-tailwindcss-original",
-            "level": "90"
-          }
-        ]
-      },
-      {
-        "title": "A-MAZE-ING: Maze Generator",
-        "startDate": "12.2023",
-        "description": "I wanted to learn more about graphs so  I developed this maze generator and solver cli with KP Gomez. This script allows users to generate unique mazes of any size using a variaty of generation algorithms. It also allows users to solve the mazes, save a serialized version, generate SVG images and save those images.",
-        "images": [
-          "images/a-maze-ing/a-maze-ing_logo.png",
-          "images/a-maze-ing/a-maze-ing_maze.png",
-          "images/a-maze-ing/a-maze-ing_terminal.png"
-        ],
-        "url": "https://github.com/amazing-maze-solver/a-maze-ing",
-        "video":"https://www.youtube.com/watch?v=fYbJzgJ9gPI",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          }
-        ]
-      },
-      {
-        "title": "ChatGPT Request",
-        "startDate": "11.2023",
-        "description": "This was another 'needs' project of mine. I kept writing some code and wanting a second opinion without leaving my IDE to asking ChatGPT to improve my code. So I wrote this script to trigger with a keyboard shortcut, make a request to ChatGPT, and open a GUI with the response. It has been a great tool to speed up my development cycle.",
-        "images": [
-          "images/code_improver/chatgpt_request_input.png",
-          "images/code_improver/chatgpt_request_output.png"
-        ],
-        "url": "https://github.com/jdabassett/chatgpt_code_improver",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          }
-        ]
-      },
-      {
-        "title": "Webscraping CLI",
-        "startDate": "10.2023",
-        "description": "This is my first practical web scraping project. For school I needed to copy some links from my reading assignments to create an empty markdown file that I could subsequently add notes to while reading. So I automated the login, copy, pasting, and formating with Playwright.",
-        "images": [
-          "images/webscraper_reading/webscraper_reading_input.png",
-          "images/webscraper_reading/webscraper_output.png"
-        ],
-        "url": "https://github.com/jdabassett/web-scraper",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          }
-        ]
-      },
-      {
-        "title": "Cocktail Lover",
-        "startDate": "08.2023",
-        "description": "This is a React culmination project designing and implementing all I had learned to this point regarding React, Node.js, Express.js, MongoDB, and Auth0. This application enables users to search for cocktail recipes, edit and curate a personal collection. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
-        "images": [
-          "images/cocktail_lover/cocktail_lover_landing.png",
-          "images/cocktail_lover/cocktail_lover_login.png",
-          "images/cocktail_lover/cocktail_lover_logged_in.png",
-          "images/cocktail_lover/cocktail_lover_search.png",
-          "images/cocktail_lover/cocktail_lover_detailed.png",
-          "images/cocktail_lover/cocktail_lover_edit.png",
-          "images/cocktail_lover/cocktail_lover_collection.png"
-      
-        ],
-        "url": "https://thriving-crisp-134854.netlify.app/",
-        "video":"https://www.youtube.com/watch?v=7JmK59103Ec",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "Node.js"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express.js"
-          },
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          }
-        ]
-      },
-      {
-        "title": "Picture Store",
-        "startDate": "03.2023",
-        "description": "This site relys heavily on React-Context and React-Router. Its a simple 'picture store' that allows users to favorite pictures, add items to their cart and proceed to checkout. I had a lot of fun building this one. A lot of concepts came together while I was building it.",
-        "images": [
-          "images/pic-store/pic-store-select_1710x862.png",
-          "images/pic-store/pic-store-checkout_1724x733.png"
-        ],
-        "url": "https://golden-mousse-db6931.netlify.app",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Speed Typing",
-        "startDate": "02.2023",
-        "description": "This site is just more practice working with React and managing state.",
-        "images": [
-          "images/speed-typing/speed-typing_865x860.png",
-          "images/speed-typing/speed-typing-ending_865x860.png"
-        ],
-        "url": "https://coruscating-souffle-69204b.netlify.app",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Quizzical",
-        "startDate": "01.2023",
-        "description": "This was my first website built from data returned from an API. Note that all data is fetched from the Open Trivia Database, user results persist locally between visits, and all CSS is accomplished without Bootstrap.",
-        "images": [
-          "images/quizzical/quizzical_landing_1060x1246.png",
-          "images/quizzical/quizzical_quiz_1060x1246.png",
-          "images/quizzical/quizzical_results_1060x1246.png"
-        ],
-        "url": "https://animated-axolotl-a2d662.netlify.app/",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Tenzie",
-        "startDate": "01.2023",
-        "description": "Of all the site I have developed, this is my mother's favorite. :) Note that user results persist locally between visits and all CSS is accomplished without Bootstrap.",
-        "images": [
-          "images/tenzie/tenzie_landing_1188x954.png",
-          "images/tenzie/tenzie_results_1188x954.png"
-        ],
-        "url": "https://steady-squirrel-fc0564.netlify.app/",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Meme Generator",
-        "startDate": "01.2023",
-        "description": "This was the first project in my learning React journey. Honestly this is the first project were I could see the path to make fully dynamic and scaleable websites. It was a very exciting epiphany!",
-        "images": [
-          "images/meme-generator/meme-generator_landing_1352x1152.png"
-        ],
-        "url": "https://gleaming-melomakarona-f3a2d5.netlify.app/",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Slot Machine",
-        "startDate": "12.2022",
-        "description": "This was the first website that I developed with a team. We took it from wireframe to publication, building, and troubleshooting together. My biggest contribution would be the CSS of the slot machine.",
-        "images": [
-          "images/slot-machine/slotmachine_index.png",
-          "images/slot-machine/slotmachine_performance.png",
-          "images/slot-machine/slotmachine_resources.png"
-        ],
-        "url": "https://team-vi.github.io/FVI/",
-        "video":"",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "TechnologyAdvice",
-        "title": "Junior Software Engineer",
-        "years": "08.2024 - 10.2025",
-        "mainTech": [
-          "Backend Software Development"
-        ],
-        "technologies": [
-          "AI Agents",
-          "Kubernetes",
-          "Argo",
-          "AWS",
-          "Cursor",
-          "N8N",
-          "DataDog"
-        ]
-      },
-      {
-        "company": "TechnologyAdvice",
-        "title": "Software Engineer Intern",
-        "years": "04.2024 - 08.2024",
-        "mainTech": [
-          "Backend Software Development"
-        ],
-        "technologies": [
-          "FastAPI",
-          "SQL",
-          "MySQL"
-        ]
-      },
-      {
-        "company": "Code Fellows",
-        "title": "Student",
-        "years": "11.2022 - 02.2024",
-        "mainTech": [
-          "Full-Stack Web Development"
-        ],
-        "technologies": [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "React",
-          "Python",
-          "MongoDB",
-          "PostgreSQL",
-          "Jupyter",
-          "Github"
-        ]
-      },
-      {
-        "company": "Institute for Systems Biology",
-        "title": "Research Associate I to III",
-        "years": "09.2014 - 09.2022",
-        "mainTech": [
-          "Self-Study"
-        ],
-        "technologies": [
-          "R",
-          "Python"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "A-MAZE-ING: Maze Generator",
+      "startDate": "12.2023",
+      "description": "I wanted to learn more about graphs so  I developed this maze generator and solver cli with KP Gomez. This script allows users to generate unique mazes of any size using a variaty of generation algorithms. It also allows users to solve the mazes, save a serialized version, generate SVG images and save those images.",
+      "images": [
+        "images/a-maze-ing/a-maze-ing_logo.png",
+        "images/a-maze-ing/a-maze-ing_maze.png",
+        "images/a-maze-ing/a-maze-ing_terminal.png"
+      ],
+      "url": "https://github.com/amazing-maze-solver/a-maze-ing",
+      "video": "https://www.youtube.com/watch?v=fYbJzgJ9gPI",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT Request",
+      "startDate": "11.2023",
+      "description": "This was another 'needs' project of mine. I kept writing some code and wanting a second opinion without leaving my IDE to asking ChatGPT to improve my code. So I wrote this script to trigger with a keyboard shortcut, make a request to ChatGPT, and open a GUI with the response. It has been a great tool to speed up my development cycle.",
+      "images": [
+        "images/code_improver/chatgpt_request_input.png",
+        "images/code_improver/chatgpt_request_output.png"
+      ],
+      "url": "https://github.com/jdabassett/chatgpt_code_improver",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Webscraping CLI",
+      "startDate": "10.2023",
+      "description": "This is my first practical web scraping project. For school I needed to copy some links from my reading assignments to create an empty markdown file that I could subsequently add notes to while reading. So I automated the login, copy, pasting, and formating with Playwright.",
+      "images": [
+        "images/webscraper_reading/webscraper_reading_input.png",
+        "images/webscraper_reading/webscraper_output.png"
+      ],
+      "url": "https://github.com/jdabassett/web-scraper",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Cocktail Lover",
+      "startDate": "08.2023",
+      "description": "This is a React culmination project designing and implementing all I had learned to this point regarding React, Node.js, Express.js, MongoDB, and Auth0. This application enables users to search for cocktail recipes, edit and curate a personal collection. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
+      "images": [
+        "images/cocktail_lover/cocktail_lover_landing.png",
+        "images/cocktail_lover/cocktail_lover_login.png",
+        "images/cocktail_lover/cocktail_lover_logged_in.png",
+        "images/cocktail_lover/cocktail_lover_search.png",
+        "images/cocktail_lover/cocktail_lover_detailed.png",
+        "images/cocktail_lover/cocktail_lover_edit.png",
+        "images/cocktail_lover/cocktail_lover_collection.png"
+      ],
+      "url": "https://thriving-crisp-134854.netlify.app/",
+      "video": "https://www.youtube.com/watch?v=7JmK59103Ec",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Picture Store",
+      "startDate": "03.2023",
+      "description": "This site relys heavily on React-Context and React-Router. Its a simple 'picture store' that allows users to favorite pictures, add items to their cart and proceed to checkout. I had a lot of fun building this one. A lot of concepts came together while I was building it.",
+      "images": [
+        "images/pic-store/pic-store-select_1710x862.png",
+        "images/pic-store/pic-store-checkout_1724x733.png"
+      ],
+      "url": "https://golden-mousse-db6931.netlify.app",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Speed Typing",
+      "startDate": "02.2023",
+      "description": "This site is just more practice working with React and managing state.",
+      "images": [
+        "images/speed-typing/speed-typing_865x860.png",
+        "images/speed-typing/speed-typing-ending_865x860.png"
+      ],
+      "url": "https://coruscating-souffle-69204b.netlify.app",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Quizzical",
+      "startDate": "01.2023",
+      "description": "This was my first website built from data returned from an API. Note that all data is fetched from the Open Trivia Database, user results persist locally between visits, and all CSS is accomplished without Bootstrap.",
+      "images": [
+        "images/quizzical/quizzical_landing_1060x1246.png",
+        "images/quizzical/quizzical_quiz_1060x1246.png",
+        "images/quizzical/quizzical_results_1060x1246.png"
+      ],
+      "url": "https://animated-axolotl-a2d662.netlify.app/",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Tenzie",
+      "startDate": "01.2023",
+      "description": "Of all the site I have developed, this is my mother's favorite. :) Note that user results persist locally between visits and all CSS is accomplished without Bootstrap.",
+      "images": [
+        "images/tenzie/tenzie_landing_1188x954.png",
+        "images/tenzie/tenzie_results_1188x954.png"
+      ],
+      "url": "https://steady-squirrel-fc0564.netlify.app/",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Meme Generator",
+      "startDate": "01.2023",
+      "description": "This was the first project in my learning React journey. Honestly this is the first project were I could see the path to make fully dynamic and scaleable websites. It was a very exciting epiphany!",
+      "images": [
+        "images/meme-generator/meme-generator_landing_1352x1152.png"
+      ],
+      "url": "https://gleaming-melomakarona-f3a2d5.netlify.app/",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Slot Machine",
+      "startDate": "12.2022",
+      "description": "This was the first website that I developed with a team. We took it from wireframe to publication, building, and troubleshooting together. My biggest contribution would be the CSS of the slot machine.",
+      "images": [
+        "images/slot-machine/slotmachine_index.png",
+        "images/slot-machine/slotmachine_performance.png",
+        "images/slot-machine/slotmachine_resources.png"
+      ],
+      "url": "https://team-vi.github.io/FVI/",
+      "video": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechnologyAdvice",
+      "title": "Junior Software Engineer",
+      "years": "08.2024 - 10.2025",
+      "icon": "fa-briefcase",
+      "mainTech": [
+        "Backend Software Development"
+      ],
+      "technologies": [
+        "AI Agents",
+        "Kubernetes",
+        "Argo",
+        "AWS",
+        "Cursor",
+        "N8N",
+        "DataDog"
+      ]
+    },
+    {
+      "company": "TechnologyAdvice",
+      "title": "Software Engineer Intern",
+      "years": "04.2024 - 08.2024",
+      "icon": "fa-briefcase",
+      "mainTech": [
+        "Backend Software Development"
+      ],
+      "technologies": [
+        "FastAPI",
+        "SQL",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Code Fellows",
+      "title": "Student",
+      "years": "11.2022 - 02.2024",
+      "icon": "fa-graduation-cap",
+      "mainTech": [
+        "Full-Stack Web Development Bootcamp"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Python",
+        "MongoDB",
+        "PostgreSQL",
+        "Jupyter",
+        "Github"
+      ]
+    },
+    {
+      "company": "Institute for Systems Biology",
+      "title": "Research Associate I to III",
+      "years": "09.2014 - 09.2022",
+      "icon": "fa-briefcase",
+      "mainTech": [
+        "Molecular Biology"
+      ],
+      "technologies": [
+        "R",
+        "Python"
+      ]
+    }
+  ]
+}
