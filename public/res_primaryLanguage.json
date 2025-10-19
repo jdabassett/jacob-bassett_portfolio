@@ -277,6 +277,36 @@
     ],
     "experience": [
       {
+        "company": "TechnologyAdvice",
+        "title": "Junior Software Engineer",
+        "years": "08.2024 - 10.2025",
+        "mainTech": [
+          "Backend Software Development"
+        ],
+        "technologies": [
+          "AI Agents",
+          "Kubernetes",
+          "Argo",
+          "AWS",
+          "Cursor",
+          "N8N",
+          "DataDog"
+        ]
+      },
+      {
+        "company": "TechnologyAdvice",
+        "title": "Software Engineer Intern",
+        "years": "04.2024 - 08.2024",
+        "mainTech": [
+          "Backend Software Development"
+        ],
+        "technologies": [
+          "FastAPI",
+          "SQL",
+          "MySQL"
+        ]
+      },
+      {
         "company": "Code Fellows",
         "title": "Student",
         "years": "11.2022 - 02.2024",
@@ -297,7 +327,7 @@
       },
       {
         "company": "Institute for Systems Biology",
-        "title": "Research Associate III",
+        "title": "Research Associate I to III",
         "years": "09.2014 - 09.2022",
         "mainTech": [
           "Self-Study"
