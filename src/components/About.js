@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import python from "@iconify/icons-logos/python";
-import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
   render() {
@@ -28,14 +25,6 @@ class About extends Component {
                     // height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={python}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>

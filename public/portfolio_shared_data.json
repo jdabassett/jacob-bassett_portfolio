@@ -19,6 +19,21 @@
     "skills": {
       "icons": [
         {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "70"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
           "level": "95"
@@ -27,11 +42,6 @@
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
         },
         {
           "name": "React",
@@ -44,13 +54,18 @@
           "level": "70"
         },
         {
-          "name": "Python",
-          "class": "devicon-python-plain",
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
           "level": "90"
         },
         {
           "name": "Django",
           "class": "devicon-django-plain",
+          "level": "90"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
           "level": "90"
         },
         {
@@ -66,6 +81,21 @@
         {
           "name": "Github",
           "class": "devicon-github-original",
+          "level": "90"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "90"
+        },
+        {
+          "name": "Argo CD",
+          "class": "devicon-argocd-plain",
+          "level": "80"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
           "level": "90"
         }
 
