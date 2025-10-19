@@ -12,11 +12,6 @@
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/jacobbassett/",
           "class": "fab fa-linkedin"
-        },
-        {
-          "name": "twitter",
-          "url": "https://twitter.com/bassett_jacob",
-          "class": "fab fa-twitter"
         }
       ],
       "image": "headshots/jacob-bassett_color.jpg"
