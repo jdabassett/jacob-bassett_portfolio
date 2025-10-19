@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Welcome to my portfolio! ",
-      "description": "My name is Jacob Bassett and I am a software developer. Before I became a developer I was a molecular biologist studying how proteins control gene expression. As a molecular biologist, most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. Here is a little taste of what I have worked on during my journey.",
+      "description": "Before I became a developer I was a molecular biologist studying how proteins control gene expression. As a molecular biologist most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. I'm motivated to build tools that will benefit others.\n\nBeyond my professional work, here are some of the personal projects I have worked on during my journey.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
