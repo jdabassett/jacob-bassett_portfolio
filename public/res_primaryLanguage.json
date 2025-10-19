@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Welcome to my portfolio! ",
-    "description": "Before I became a software engineer, I was a molecular biologist studying how proteins control gene expression. Most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. I'm motivated to build tools that can make a meaningful impact in others lives.\n\nBeyond my professional work, here are some of the personal projects I have worked on during my journey.",
+    "description_header": "Welcome to my personal portfolio! ",
+    "description": "Before I became a software engineer, I was a molecular biologist studying how proteins control gene expression. Most of my time was spent in the lab working directly with DNA, RNA, and proteins. But often I would bump into a problem that needed some custom software. As I learned to develop these small-personal programs, I became more and more drawn to programming and would want to spend the whole day playing around with code. Eventually I decided to make the switch and develop full time. I'm motivated to build tools that can make a meaningful impact in others lives. Beyond my professional work, here are some of the personal projects I have worked on during my journey.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,9 +11,9 @@
   },
   "projects": [
     {
-      "title": "Django API",
-      "startDate": "2.2024",
-      "description": "This is a project to enable clients to generate first draft cover letters using the details from a clients resume, a job description, and an existing cover letter whose style they wish to emulate. I used a few tools with this one: Next.js, Django, PostgreSQL, JWT Tokens, Tailwind.css, and React Custom Hooks. It was a lot of fun bringing them all together. If this site is no longer working it is likely due to the OpenAI key expiring.",
+      "title": "First Draft",
+      "startDate": "02.2024",
+      "description": "Full-stack application using Next.js, Django, and PostgreSQL to generate AI-powered cover letters. Analyzes user resumes and job descriptions through OpenAI's API to create personalized applications matching desired tone and style. Features JWT authentication, CRUD operations, and responsive Tailwind CSS design.",
       "images": [
         "images/first-draft/home.png",
         "images/first-draft/login.png",
@@ -59,7 +59,7 @@
     {
       "title": "A-MAZE-ING: Maze Generator",
       "startDate": "12.2023",
-      "description": "I wanted to learn more about graphs so  I developed this maze generator and solver cli with KP Gomez. This script allows users to generate unique mazes of any size using a variaty of generation algorithms. It also allows users to solve the mazes, save a serialized version, generate SVG images and save those images.",
+      "description": "A Python CLI tool for maze generation and solving, built with KP Gomez. Implements graph traversal algorithms (BFS/DFS), supports multiple generation methods, and exports mazes as binary files or SVG images. Features comprehensive test coverage and modular design.",
       "images": [
         "images/a-maze-ing/a-maze-ing_logo.png",
         "images/a-maze-ing/a-maze-ing_maze.png",
@@ -77,7 +77,7 @@
     {
       "title": "ChatGPT Request",
       "startDate": "11.2023",
-      "description": "This was another 'needs' project of mine. I kept writing some code and wanting a second opinion without leaving my IDE to asking ChatGPT to improve my code. So I wrote this script to trigger with a keyboard shortcut, make a request to ChatGPT, and open a GUI with the response. It has been a great tool to speed up my development cycle.",
+      "description": "A developer productivity tool integrating ChatGPT directly into the coding workflow. Features keyboard shortcut activation, OpenAI API integration, and a GUI for displaying code improvement suggestions. Eliminates the need to switch contexts between IDE and browser, significantly reducing iteration time during development.",
       "images": [
         "images/code_improver/chatgpt_request_input.png",
         "images/code_improver/chatgpt_request_output.png"
@@ -94,7 +94,7 @@
     {
       "title": "Webscraping CLI",
       "startDate": "10.2023",
-      "description": "This is my first practical web scraping project. For school I needed to copy some links from my reading assignments to create an empty markdown file that I could subsequently add notes to while reading. So I automated the login, copy, pasting, and formating with Playwright.",
+      "description": "An automation solution built with Python and Playwright to streamline academic workflows. Programmatically handles login authentication, extracts assignment links, and generates formatted markdown templates for note-taking. Demonstrates practical application of web scraping to solve real-world productivity challenges.",
       "images": [
         "images/webscraper_reading/webscraper_reading_input.png",
         "images/webscraper_reading/webscraper_output.png"
@@ -111,7 +111,7 @@
     {
       "title": "Cocktail Lover",
       "startDate": "08.2023",
-      "description": "This is a React culmination project designing and implementing all I had learned to this point regarding React, Node.js, Express.js, MongoDB, and Auth0. This application enables users to search for cocktail recipes, edit and curate a personal collection. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
+      "description": "A comprehensive full-stack application showcasing the MERN stack (MongoDB, Express.js, React, Node.js) with Auth0 integration for secure authentication. Enables users to search external cocktail APIs, curate personal recipe collections, and perform full CRUD operations. Demonstrates end-to-end development from frontend state management to RESTful API design and database architecture. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
       "images": [
         "images/cocktail_lover/cocktail_lover_landing.png",
         "images/cocktail_lover/cocktail_lover_login.png",
@@ -149,7 +149,7 @@
     {
       "title": "Picture Store",
       "startDate": "03.2023",
-      "description": "This site relys heavily on React-Context and React-Router. Its a simple 'picture store' that allows users to favorite pictures, add items to their cart and proceed to checkout. I had a lot of fun building this one. A lot of concepts came together while I was building it.",
+      "description": "A simple e-commerce application where advanced React concepts converged: Context API for global state, React Router for navigation, and component composition for features like cart management, favorites, and checkout processing.",
       "images": [
         "images/pic-store/pic-store-select_1710x862.png",
         "images/pic-store/pic-store-checkout_1724x733.png"
@@ -191,7 +191,7 @@
     {
       "title": "Quizzical",
       "startDate": "01.2023",
-      "description": "This was my first website built from data returned from an API. Note that all data is fetched from the Open Trivia Database, user results persist locally between visits, and all CSS is accomplished without Bootstrap.",
+      "description": "An API-driven trivia application fetching data from the Open Trivia Database. Features persistent score tracking via local storage and custom CSS styling built from scratch.",
       "images": [
         "images/quizzical/quizzical_landing_1060x1246.png",
         "images/quizzical/quizzical_quiz_1060x1246.png",
@@ -213,7 +213,7 @@
     {
       "title": "Tenzie",
       "startDate": "01.2023",
-      "description": "Of all the site I have developed, this is my mother's favorite. :) Note that user results persist locally between visits and all CSS is accomplished without Bootstrap.",
+      "description": "A responsive application implementing local storage for persistent user data across sessions. Styled entirely with vanilla CSS without relying on frameworks like Bootstrap, showcasing fundamental front-end development skills.",
       "images": [
         "images/tenzie/tenzie_landing_1188x954.png",
         "images/tenzie/tenzie_results_1188x954.png"
@@ -234,7 +234,7 @@
     {
       "title": "Meme Generator",
       "startDate": "01.2023",
-      "description": "This was the first project in my learning React journey. Honestly this is the first project were I could see the path to make fully dynamic and scaleable websites. It was a very exciting epiphany!",
+      "description": "My introduction to React, where component-based architecture illuminated the path to building dynamic, scalable applications. This project was a turning point in understanding modern web development practices.",
       "images": [
         "images/meme-generator/meme-generator_landing_1352x1152.png"
       ],
@@ -250,7 +250,7 @@
     {
       "title": "Slot Machine",
       "startDate": "12.2022",
-      "description": "This was the first website that I developed with a team. We took it from wireframe to publication, building, and troubleshooting together. My biggest contribution would be the CSS of the slot machine.",
+      "description": "My first collaborative web development project, where our team guided the site from initial wireframes through to deployment. I took primary responsibility for styling the slot machine component, crafting the CSS to bring the interactive element to life. Throughout the process, we worked together on building features and resolving technical challenges.",
       "images": [
         "images/slot-machine/slotmachine_index.png",
         "images/slot-machine/slotmachine_performance.png",
