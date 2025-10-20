@@ -10,52 +10,53 @@
     }
   },
   "projects": [
-    // {
-    //   "title": "First Draft",
-    //   "startDate": "02.2024",
-    //   "description": "Full-stack application using Next.js, Django, and PostgreSQL to generate AI-powered cover letters. Analyzes user resumes and job descriptions through OpenAI's API to create personalized applications matching desired tone and style. Features JWT authentication, CRUD operations, and responsive Tailwind CSS design.",
-    //   "images": [
-    //     "images/first-draft/home.png",
-    //     "images/first-draft/login.png",
-    //     "images/first-draft/registration.png",
-    //     "images/first-draft/records.png",
-    //     "images/first-draft/registration.png",
-    //     "images/first-draft/editandsave.png",
-    //     "images/first-draft/query.png",
-    //     "images/first-draft/description.png",
-    //     "images/first-draft/resume.png",
-    //     "images/first-draft/coverletters.png"
-    //   ],
-    //   "url": "https://frontend-first-draft.vercel.app/",
-    //   "video": "https://youtu.be/7D0psx4fwD8",
-    //   "technologies": [
-    //     {
-    //       "name": "React",
-    //       "class": "devicon-react-plain",
-    //       "level": "70"
-    //     },
-    //     {
-    //       "name": "Next.js",
-    //       "class": "devicon-nextjs-plain",
-    //       "level": "90"
-    //     },
-    //     {
-    //       "name": "Django",
-    //       "class": "devicon-django-plain",
-    //       "level": "90"
-    //     },
-    //     {
-    //       "name": "PostgreSQL",
-    //       "class": "devicon-postgresql-plain",
-    //       "level": "90"
-    //     },
-    //     {
-    //       "name": "Tailwind.css",
-    //       "class": "devicon-tailwindcss-original",
-    //       "level": "90"
-    //     }
-    //   ]
-    // },
+    {
+      "title": "First Draft",
+      "startDate": "02.2024",
+      "hidden": true,
+      "description": "Full-stack application using Next.js, Django, and PostgreSQL to generate AI-powered cover letters. Analyzes user resumes and job descriptions through OpenAI's API to create personalized applications matching desired tone and style. Features JWT authentication, CRUD operations, and responsive Tailwind CSS design.",
+      "images": [
+        "images/first-draft/home.png",
+        "images/first-draft/login.png",
+        "images/first-draft/registration.png",
+        "images/first-draft/records.png",
+        "images/first-draft/registration.png",
+        "images/first-draft/editandsave.png",
+        "images/first-draft/query.png",
+        "images/first-draft/description.png",
+        "images/first-draft/resume.png",
+        "images/first-draft/coverletters.png"
+      ],
+      "url": "https://frontend-first-draft.vercel.app/",
+      "video": "https://youtu.be/7D0psx4fwD8",
+      "technologies": [
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "70"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain",
+          "level": "90"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "90"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "90"
+        },
+        {
+          "name": "Tailwind.css",
+          "class": "devicon-tailwindcss-original",
+          "level": "90"
+        }
+      ]
+    },
     {
       "title": "A-MAZE-ING: Maze Generator",
       "startDate": "12.2023",
