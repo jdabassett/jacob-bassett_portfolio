@@ -58,6 +58,44 @@
       ]
     },
     {
+      "title": "Cocktail Lover",
+      "startDate": "08.2023",
+      "description": "A comprehensive full-stack application showcasing the MERN stack (MongoDB, Express.js, React, Node.js) with Auth0 integration for secure authentication. Enables users to search external cocktail APIs, curate personal recipe collections, and perform full CRUD operations. Demonstrates end-to-end development from frontend state management to RESTful API design and database architecture. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
+      "images": [
+        "images/cocktail_lover/cocktail_lover_landing.png",
+        "images/cocktail_lover/cocktail_lover_login.png",
+        "images/cocktail_lover/cocktail_lover_logged_in.png",
+        "images/cocktail_lover/cocktail_lover_search.png",
+        "images/cocktail_lover/cocktail_lover_detailed.png",
+        "images/cocktail_lover/cocktail_lover_edit.png",
+        "images/cocktail_lover/cocktail_lover_collection.png"
+      ],
+      "url": "https://thriving-crisp-134854.netlify.app/",
+      "video": "https://www.youtube.com/watch?v=7JmK59103Ec",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
       "title": "A-MAZE-ING: Maze Generator",
       "startDate": "12.2023",
       "description": "A Python CLI tool for maze generation and solving, built with KP Gomez. Implements graph traversal algorithms (BFS/DFS), supports multiple generation methods, and exports mazes as binary files or SVG images. Features comprehensive test coverage and modular design.",
@@ -106,44 +144,6 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
-        }
-      ]
-    },
-    {
-      "title": "Cocktail Lover",
-      "startDate": "08.2023",
-      "description": "A comprehensive full-stack application showcasing the MERN stack (MongoDB, Express.js, React, Node.js) with Auth0 integration for secure authentication. Enables users to search external cocktail APIs, curate personal recipe collections, and perform full CRUD operations. Demonstrates end-to-end development from frontend state management to RESTful API design and database architecture. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
-      "images": [
-        "images/cocktail_lover/cocktail_lover_landing.png",
-        "images/cocktail_lover/cocktail_lover_login.png",
-        "images/cocktail_lover/cocktail_lover_logged_in.png",
-        "images/cocktail_lover/cocktail_lover_search.png",
-        "images/cocktail_lover/cocktail_lover_detailed.png",
-        "images/cocktail_lover/cocktail_lover_edit.png",
-        "images/cocktail_lover/cocktail_lover_collection.png"
-      ],
-      "url": "https://thriving-crisp-134854.netlify.app/",
-      "video": "https://www.youtube.com/watch?v=7JmK59103Ec",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        },
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express.js"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "MongoDB"
         }
       ]
     },
