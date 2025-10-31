@@ -79,36 +79,34 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 style={{ padding: "5px 5px 0 5px", fontWeight: "bold" }}>
               {title}
+              <span>: </span>
               {url ? (
                 <a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-href"
+                  style={{ marginLeft: "10px", textDecoration: "none" }}
                 >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
+                  source
                 </a>
               ) : null}
-
-              {video!=="" ? (
-                <a
-                  href={video}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
+              {video ? (
+                <>
+                  {url ? ", " : ""}
+                  <a
+                    href={video}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                    style={{ textDecoration: "none" }}
+                  >
+                    tutorial
+                  </a>
+                </>
               ) : null}
-
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">

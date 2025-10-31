@@ -13,7 +13,7 @@
     {
       "title": "First Draft",
       "startDate": "02.2024",
-      "hidden": true,
+      "hidden": false,
       "description": "Full-stack application using Next.js, Django, and PostgreSQL to generate AI-powered cover letters. Analyzes user resumes and job descriptions through OpenAI's API to create personalized applications matching desired tone and style. Features JWT authentication, CRUD operations, and responsive Tailwind CSS design.",
       "images": [
         "images/first-draft/home.png",
@@ -60,6 +60,7 @@
     {
       "title": "Cocktail Lover",
       "startDate": "08.2023",
+      "hidden": false,
       "description": "A comprehensive full-stack application showcasing the MERN stack (MongoDB, Express.js, React, Node.js) with Auth0 integration for secure authentication. Enables users to search external cocktail APIs, curate personal recipe collections, and perform full CRUD operations. Demonstrates end-to-end development from frontend state management to RESTful API design and database architecture. Note that if you visit the website it is functional but takes about 15-30 seconds for the server to 'spin-up' on the first search since it is a free server.",
       "images": [
         "images/cocktail_lover/cocktail_lover_landing.png",
@@ -98,6 +99,7 @@
     {
       "title": "A-MAZE-ING: Maze Generator",
       "startDate": "12.2023",
+      "hidden": false,
       "description": "A Python CLI tool for maze generation and solving, built with KP Gomez. Implements graph traversal algorithms (BFS/DFS), supports multiple generation methods, and exports mazes as binary files or SVG images. Features comprehensive test coverage and modular design.",
       "images": [
         "images/a-maze-ing/a-maze-ing_logo.png",
@@ -116,6 +118,7 @@
     {
       "title": "ChatGPT Request",
       "startDate": "11.2023",
+      "hidden": false,
       "description": "A developer productivity tool integrating ChatGPT directly into the coding workflow. Features keyboard shortcut activation, OpenAI API integration, and a GUI for displaying code improvement suggestions. Eliminates the need to switch contexts between IDE and browser, significantly reducing iteration time during development.",
       "images": [
         "images/code_improver/chatgpt_request_input.png",
@@ -133,6 +136,7 @@
     {
       "title": "Webscraping CLI",
       "startDate": "10.2023",
+      "hidden": false,
       "description": "An automation solution built with Python and Playwright to streamline academic workflows. Programmatically handles login authentication, extracts assignment links, and generates formatted markdown templates for note-taking. Demonstrates practical application of web scraping to solve real-world productivity challenges.",
       "images": [
         "images/webscraper_reading/webscraper_reading_input.png",
@@ -150,6 +154,7 @@
     {
       "title": "Picture Store",
       "startDate": "03.2023",
+      "hidden": false,
       "description": "A simple e-commerce application where advanced React concepts converged: Context API for global state, React Router for navigation, and component composition for features like cart management, favorites, and checkout processing.",
       "images": [
         "images/pic-store/pic-store-select_1710x862.png",
@@ -171,6 +176,7 @@
     {
       "title": "Speed Typing",
       "startDate": "02.2023",
+      "hidden": false,
       "description": "This site is just more practice working with React and managing state.",
       "images": [
         "images/speed-typing/speed-typing_865x860.png",
@@ -192,6 +198,7 @@
     {
       "title": "Quizzical",
       "startDate": "01.2023",
+      "hidden": false,
       "description": "An API-driven trivia application fetching data from the Open Trivia Database. Features persistent score tracking via local storage and custom CSS styling built from scratch.",
       "images": [
         "images/quizzical/quizzical_landing_1060x1246.png",
@@ -214,6 +221,7 @@
     {
       "title": "Tenzie",
       "startDate": "01.2023",
+      "hidden": false,
       "description": "A responsive application implementing local storage for persistent user data across sessions. Styled entirely with vanilla CSS without relying on frameworks like Bootstrap, showcasing fundamental front-end development skills.",
       "images": [
         "images/tenzie/tenzie_landing_1188x954.png",
@@ -235,6 +243,7 @@
     {
       "title": "Meme Generator",
       "startDate": "01.2023",
+      "hidden": false,
       "description": "My introduction to React, where component-based architecture illuminated the path to building dynamic, scalable applications. This project was a turning point in understanding modern web development practices.",
       "images": [
         "images/meme-generator/meme-generator_landing_1352x1152.png"
@@ -251,6 +260,7 @@
     {
       "title": "Slot Machine",
       "startDate": "12.2022",
+      "hidden": false,
       "description": "My first collaborative web development project, where our team guided the site from initial wireframes through to deployment. I took primary responsibility for styling the slot machine component, crafting the CSS to bring the interactive element to life. Throughout the process, we worked together on building features and resolving technical challenges.",
       "images": [
         "images/slot-machine/slotmachine_index.png",
