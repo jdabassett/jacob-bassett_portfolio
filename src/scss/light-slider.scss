@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #A0A0A0;
+$organic-arrow-color: #242323;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -122,10 +122,12 @@ $content-background-color: #A0A0A0;
 
     >img,
     >video {
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      position: relative;
     }
   }
 
