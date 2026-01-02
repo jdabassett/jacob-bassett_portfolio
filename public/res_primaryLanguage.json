@@ -11,6 +11,37 @@
   },
   "projects": [
     {
+      "title": "QPeptide Finder API",
+      "startDate": "12.2025",  
+      "hidden": false,
+      "description": "The QPeptide Finder API is a specialized backend service designed to analyze protein sequences and evaluate the suitability of each resulting peptide for use as a quantitative proteomics peptide (QPeptide). As the core processing engine of the QPeptide Finder service, this API performs computationally intensive peptide analysis, maintains comprehensive records of all digests and evaluations, and serves as the data layer for the frontend application. Built with FastAPI for high-performance async request handling, SQLAlchemy for database operations, and containerized with Docker for easy deployment.",
+      "images": [
+        "images/qpeptide_finder/qpeptide_finder_logo.jpg",
+        "images/qpeptide_finder/readme.png",
+        "images/qpeptide_finder/api_documentation.png",
+        "images/qpeptide_finder/quantitative_protemics_diagrma.png"
+      ],
+      "url": "https://github.com/jdabassett/qpeptide-finder-backend",  
+      "technologies": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain"  
+        }
+      ]
+    },
+    {
       "title": "First Draft",
       "startDate": "02.2024",
       "hidden": false,
