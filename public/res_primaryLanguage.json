@@ -11,18 +11,32 @@
   },
   "projects": [
     {
-      "title": "QPeptide Finder API",
-      "startDate": "12.2025",  
+      "title": "QPeptide Finder",
+      "startDate": "02.2026",  
       "hidden": false,
-      "description": "The QPeptide Finder API is a specialized backend service designed to analyze protein sequences and evaluate the suitability of each resulting peptide for use as a quantitative proteomics peptide (QPeptide). As the core processing engine of the QPeptide Finder service, this API performs computationally intensive peptide analysis, maintains comprehensive records of all digests and evaluations, and serves as the data layer for the frontend application. Built with FastAPI for high-performance async request handling, SQLAlchemy for database operations, and containerized with Docker for easy deployment.",
+      "description": "QPeptide Finder is a full-stack application for quantitative proteomics that enables researchers to identify suitable quantitative peptides (QPeptides) from their protein of interest. The backend is a FastAPI service that digests proteins into peptides, computes properties like pI and hydrophobicity, evaluates each peptide against scientific criteria, ranks candidates, and stores results in MySQL via SQLAlchemy; it is containerized with Docker for deployment on an AWS EC2 instance.",
       "images": [
         "images/qpeptide_finder/qpeptide_finder_logo.jpg",
-        "images/qpeptide_finder/readme.png",
-        "images/qpeptide_finder/api_documentation.png",
-        "images/qpeptide_finder/quantitative_protemics_diagrma.png"
+        "images/qpeptide_finder/qpeptide-finder-landing-page.png",
+        "images/qpeptide_finder/qpeptide-finder-science-page.png",
+        "images/qpeptide_finder/qpeptide-finder-new-digest-page.png",
+        "images/qpeptide_finder/qpeptide-finder-review-page.png"
       ],
-      "url": "https://github.com/jdabassett/qpeptide-finder-backend",  
+      "url": "https://din27w2hnzep7.cloudfront.net/",  
       "technologies": [
+        {
+          "name":"AWS",
+          "class":"devicon-amazonwebservices-plain-wordmark"
+        },
+        {
+          "name":"TypeScript",
+          "class":"devicon-typescript-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "70"
+        },
         {
           "name": "Python",
           "class": "devicon-python-plain"
@@ -38,6 +52,10 @@
         {
           "name": "Docker",
           "class": "devicon-docker-plain"  
+        },
+        {
+          "name": "Github Actions",
+          "class":"devicon-githubactions-plain"
         }
       ]
     },
