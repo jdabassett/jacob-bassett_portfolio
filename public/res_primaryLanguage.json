@@ -14,7 +14,7 @@
       "title": "QPeptide Finder",
       "startDate": "02.2026",  
       "hidden": false,
-      "description": "QPeptide Finder is a full-stack application for quantitative proteomics that enables researchers to identify suitable quantitative peptides (QPeptides) from their protein of interest. The backend is a FastAPI service that digests proteins into peptides, computes properties like pI and hydrophobicity, evaluates each peptide against scientific criteria, ranks candidates, and stores results in MySQL via SQLAlchemy; it is containerized with Docker for deployment on an AWS EC2 instance. (Scheduled Maintenance 04-09-2026)",
+      "description": "QPeptide Finder is a full-stack application for quantitative proteomics that enables researchers to identify suitable quantitative peptides (QPeptides) from their protein of interest. The backend is a FastAPI service that digests proteins into peptides, computes properties like pI and hydrophobicity, evaluates each peptide against scientific criteria, ranks candidates, and stores results in MySQL via SQLAlchemy; it is containerized with Docker for deployment on an AWS EC2 instance. (Scheduled Maintenance 04-14-2026)",
       "images": [
         "images/qpeptide_finder/qpeptide_finder_logo.jpg",
         "images/qpeptide_finder/qpeptide-finder-landing-page.png",
